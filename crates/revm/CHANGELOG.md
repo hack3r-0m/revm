@@ -6,6 +6,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [11.1.0](https://github.com/hack3r-0m/revm/compare/revm-v11.0.0...revm-v11.1.0) - 2024-07-11
+
+### Added
+- use `kzg-rs` for kzg point evaluation ([#1558](https://github.com/hack3r-0m/revm/pull/1558))
+
+### Other
+- load_account -> warm_preloaded_addresses ([#1584](https://github.com/hack3r-0m/revm/pull/1584))
+- Refactor code, and check if precompile for create collision ([#1600](https://github.com/hack3r-0m/revm/pull/1600))
+- *(revm)* defer bytecode load ([#1588](https://github.com/hack3r-0m/revm/pull/1588))
+- Rename gas_price to gas_limit for precompile args ([#1593](https://github.com/hack3r-0m/revm/pull/1593))
+
 ## [11.0.0](https://github.com/bluealloy/revm/compare/revm-v10.0.0...revm-v11.0.0) - 2024-07-08
 
 ### Added

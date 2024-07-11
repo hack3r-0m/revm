@@ -6,6 +6,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [7.0.0](https://github.com/hack3r-0m/revm/compare/revm-primitives-v6.0.0...revm-primitives-v7.0.0) - 2024-07-11
+
+### Added
+- use `kzg-rs` for kzg point evaluation ([#1558](https://github.com/hack3r-0m/revm/pull/1558))
+
+### Fixed
+- missing kzg_settings if kzg-rs feature enabled ([#1601](https://github.com/hack3r-0m/revm/pull/1601))
+
+### Other
+- group optimism invalid txn errors
+- *(deps)* bump bitflags from 2.5.0 to 2.6.0 ([#1583](https://github.com/hack3r-0m/revm/pull/1583))
+- Rename gas_price to gas_limit for precompile args ([#1593](https://github.com/hack3r-0m/revm/pull/1593))
+
 ## [6.0.0](https://github.com/bluealloy/revm/compare/revm-primitives-v5.0.0...revm-primitives-v6.0.0) - 2024-07-08
 
 ### Added
